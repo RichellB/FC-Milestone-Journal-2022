@@ -1,0 +1,25 @@
+PROJECT CHOICE 
+
+
+* SPARK OPTIMIZATION:
+
+
+    Main Problem: 
+        Data processing of large company scale data set is time consuming (Lack of Efficient Parallel Processing Logic)
+
+    Solution Needed: 
+        Optimal parallel processing logic
+
+    Potential Solutions: 
+
+
+
+    Key Definitions
+
+    * RDD - Resilient Distributed Datasets (Data structure in Apache Spark). It is an immutable distributed collection of objects. Each dataset in the RDD is divided into logical partitions and may then be computed on different nodes of the cluster, so that they can be operated/processed in parallel with a low-level API that offers transformations and actions.
+
+
+    * Parallel Processing - This is the method of running two or more processors to handle separate parts of an overall task. Concurrent tasks may be running on the driver node or worker nodes. 
+
+
+
